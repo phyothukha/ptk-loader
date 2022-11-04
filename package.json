@@ -1,0 +1,18 @@
+{
+  "name": "ptk-loader",
+  "version": "1.0.0",
+  "description": "テスト　です",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/phyothukha/ptk-loader.git"
+  },
+  "keywords": [
+    "ptkloader"
+  ],
+  "author": "Phyo Thu Kha",
+  "license": "ISC"
+}
