@@ -16,11 +16,11 @@ export function removeLoader(){
 export function showProgress(){
     const progressDiv=document.createElement('div');
     progressDiv.classList.add('.top-progress');
-    progressDiv.innerHTML=`<div class="vh-100 d-flex justify-content-center align-item-center fixed-top">
-        <div class="progress">
+    progressDiv.innerHTML=`
+        <div class="progress fixed-top" style="height:10px">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
         </div>
-        </div>
+       
     `
     document.body.append(progressDiv)
 }
